@@ -1,0 +1,5 @@
+A = int(input())
+dis_1=A * 0.90
+dis_2=A - 100
+Final_Bill = min(dis_1, dis_2)
+print(int(Final_Bill))
