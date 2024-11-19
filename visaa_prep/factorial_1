@@ -1,0 +1,9 @@
+def fact(k):
+    if k==0:
+        return 1
+    result=1
+    for i in range(1,k+1):
+        result *=i
+    return result
+k=int(input())    
+print(fact(k))
